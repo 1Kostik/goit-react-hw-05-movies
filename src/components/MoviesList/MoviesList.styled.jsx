@@ -60,7 +60,3 @@ export const MovieName = styled.p`
   font-size: 18px;
   transition: all 200ms ease-in-out;
 `;
-//  object-fit: cover;
-//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-// .MoviesItem
