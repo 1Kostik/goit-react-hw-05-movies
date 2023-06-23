@@ -78,10 +78,14 @@ const MovieDetails = () => {
           <h2>Additional information</h2>
           <AddInfo>
             <AddInfoName>
-              <InfoLink to="cast">Cast</InfoLink>
+              <InfoLink to="cast" state={{ from: backLinkHref }}>
+                Cast
+              </InfoLink>
             </AddInfoName>
             <AddInfoName>
-              <InfoLink to="reviews">Reviews</InfoLink>
+              <InfoLink to="reviews" state={{ from: backLinkHref }}>
+                Reviews
+              </InfoLink>
             </AddInfoName>
           </AddInfo>
         </WrapperAddInfo>

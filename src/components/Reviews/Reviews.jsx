@@ -37,9 +37,7 @@ const Reviews = () => {
             </List>
           ))}
         </ul>
-      ) : (
-        <Answer> WE don't have any reviews for this movie.</Answer>
-      )}
+      ) : (<Answer> WE don't have any reviews for this movie.</Answer>)}
       {isLoading && <Loader />}
     </Wrapper>
   );
